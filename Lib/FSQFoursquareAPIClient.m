@@ -84,16 +84,4 @@
     return [NSString stringWithFormat:@"%.2f,%.2f", coordinates.latitude, coordinates.longitude];
 }
 
--(NSMutableURLRequest *)requestWithMethod:(NSString *)method
-                                     path:(NSString *)path
-                               Parameters:(NSDictionary *)parameters {
-    
-    NSMutableDictionary *params = [parameters mutableCopy];
-    [params setObject:FOURSQUARE_APP_CLIENT_ID forKey:@"client_id"];
-    [params setObject:FOURSQUARE_APP_CLIENT_SECRET forKey:@"client_secret"];
-    [params setObject:@"20130420" forKey:@"v"];
-    
-    return [super requestWithMethod:method path:path parameters:params];
-}
-
 @end
