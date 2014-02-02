@@ -28,11 +28,10 @@
 		CD74ADF7189CF0240043715C /* PKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADF5189CF0240043715C /* PKMapViewController.m */; };
 		CD74ADF9189CF1680043715C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADF8189CF1680043715C /* SystemConfiguration.framework */; };
 		CD74ADFB189CF17E0043715C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADFA189CF17E0043715C /* MobileCoreServices.framework */; };
-		CD74ADFE189CF4BB0043715C /* FSQFoursquareAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADFD189CF4BB0043715C /* FSQFoursquareAPIClient.m */; };
-		CD74ADFF189CF4BB0043715C /* FSQFoursquareAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADFD189CF4BB0043715C /* FSQFoursquareAPIClient.m */; };
 		CD74AE02189CF4D80043715C /* FSQVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74AE01189CF4D80043715C /* FSQVenue.m */; };
 		CD74AE03189CF4D80043715C /* FSQVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74AE01189CF4D80043715C /* FSQVenue.m */; };
 		CD74AE06189D50B20043715C /* PKVenueAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74AE05189D50B20043715C /* PKVenueAnnotation.m */; };
+		CD74AE09189E7A8F0043715C /* FSQFourSquareProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74AE08189E7A8F0043715C /* FSQFourSquareProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,12 +70,12 @@
 		CD74ADF5189CF0240043715C /* PKMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMapViewController.m; sourceTree = "<group>"; };
 		CD74ADF8189CF1680043715C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CD74ADFA189CF17E0043715C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		CD74ADFC189CF4BB0043715C /* FSQFoursquareAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQFoursquareAPIClient.h; sourceTree = "<group>"; };
-		CD74ADFD189CF4BB0043715C /* FSQFoursquareAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQFoursquareAPIClient.m; sourceTree = "<group>"; };
 		CD74AE00189CF4D80043715C /* FSQVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQVenue.h; sourceTree = "<group>"; };
 		CD74AE01189CF4D80043715C /* FSQVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQVenue.m; sourceTree = "<group>"; };
 		CD74AE04189D50B20043715C /* PKVenueAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKVenueAnnotation.h; sourceTree = "<group>"; };
 		CD74AE05189D50B20043715C /* PKVenueAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKVenueAnnotation.m; sourceTree = "<group>"; };
+		CD74AE07189E7A8F0043715C /* FSQFourSquareProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQFourSquareProxy.h; sourceTree = "<group>"; };
+		CD74AE08189E7A8F0043715C /* FSQFourSquareProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQFourSquareProxy.m; sourceTree = "<group>"; };
 		FF4EABA980934A6085106140 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -220,10 +219,10 @@
 		CD74ADED189CEC890043715C /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				CD74ADFC189CF4BB0043715C /* FSQFoursquareAPIClient.h */,
-				CD74ADFD189CF4BB0043715C /* FSQFoursquareAPIClient.m */,
 				CD74AE00189CF4D80043715C /* FSQVenue.h */,
 				CD74AE01189CF4D80043715C /* FSQVenue.m */,
+				CD74AE07189E7A8F0043715C /* FSQFourSquareProxy.h */,
+				CD74AE08189E7A8F0043715C /* FSQFourSquareProxy.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -380,7 +379,7 @@
 				CD74ADC7189BBFF60043715C /* PKAppDelegate.m in Sources */,
 				CD74AE02189CF4D80043715C /* FSQVenue.m in Sources */,
 				CD74ADF6189CF0240043715C /* PKMapViewController.m in Sources */,
-				CD74ADFE189CF4BB0043715C /* FSQFoursquareAPIClient.m in Sources */,
+				CD74AE09189E7A8F0043715C /* FSQFourSquareProxy.m in Sources */,
 				CD74AE06189D50B20043715C /* PKVenueAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD74ADFF189CF4BB0043715C /* FSQFoursquareAPIClient.m in Sources */,
 				CD74ADF7189CF0240043715C /* PKMapViewController.m in Sources */,
 				CD74AE03189CF4D80043715C /* FSQVenue.m in Sources */,
 				CD74ADDC189BBFF60043715C /* PKBeerViewTests.m in Sources */,

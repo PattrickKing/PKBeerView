@@ -7,7 +7,8 @@
 //
 
 #import "PKMapViewController.h"
-#import "FSQFoursquareAPIClient.h"
+//#import "FSQFoursquareAPIClient.h"
+#import "FSQFourSquareProxy.h"
 #import "PKVenueAnnotation.h"
 
 @interface PKMapViewController () <CLLocationManagerDelegate>
@@ -59,7 +60,7 @@
 - (void)fetchVenuesForLocation:(CLLocation *)location {
     
     [SVProgressHUD show];
-    [[FSQFoursquareAPIClient sharedClient] fetchVenuesNear:location.coordinate
+    [[FSQFourSquareProxy proxy] fetchVenuesNear:location.coordinate
                                                 searchTerm:@"beer"
                                             radiusInMeters:4000
                                                 completion:^(NSArray *venues, NSError *error) {
