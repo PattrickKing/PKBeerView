@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		905ACE6F7BA04BE0BE456C90 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D4CCEAE1594E6D9A921F14 /* libPods.a */; };
+		CD74ADB7189BBFF60043715C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADB6189BBFF60043715C /* Foundation.framework */; };
+		CD74ADB9189BBFF60043715C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADB8189BBFF60043715C /* CoreGraphics.framework */; };
+		CD74ADBB189BBFF60043715C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADBA189BBFF60043715C /* UIKit.framework */; };
+		CD74ADC1189BBFF60043715C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD74ADBF189BBFF60043715C /* InfoPlist.strings */; };
+		CD74ADC3189BBFF60043715C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADC2189BBFF60043715C /* main.m */; };
+		CD74ADC7189BBFF60043715C /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADC6189BBFF60043715C /* PKAppDelegate.m */; };
+		CD74ADC9189BBFF60043715C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD74ADC8189BBFF60043715C /* Images.xcassets */; };
+		CD74ADD0189BBFF60043715C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADCF189BBFF60043715C /* XCTest.framework */; };
+		CD74ADD1189BBFF60043715C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADB6189BBFF60043715C /* Foundation.framework */; };
+		CD74ADD2189BBFF60043715C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADBA189BBFF60043715C /* UIKit.framework */; };
+		CD74ADDA189BBFF60043715C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD74ADD8189BBFF60043715C /* InfoPlist.strings */; };
+		CD74ADDC189BBFF60043715C /* PKBeerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADDB189BBFF60043715C /* PKBeerViewTests.m */; };
+		CD74ADEA189BC6D30043715C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADE9189BC6D30043715C /* MapKit.framework */; };
+		CD74ADEC189CEAE80043715C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADEB189CEAE80043715C /* CoreLocation.framework */; };
+		CD74ADF1189CED840043715C /* Storyboard_Phone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD74ADF0189CED840043715C /* Storyboard_Phone.storyboard */; };
+		CD74ADF3189CED9C0043715C /* Storyboard_Pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD74ADF2189CED9C0043715C /* Storyboard_Pad.storyboard */; };
+		CD74ADF6189CF0240043715C /* PKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADF5189CF0240043715C /* PKMapViewController.m */; };
+		CD74ADF7189CF0240043715C /* PKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADF5189CF0240043715C /* PKMapViewController.m */; };
+		CD74ADF9189CF1680043715C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADF8189CF1680043715C /* SystemConfiguration.framework */; };
+		CD74ADFB189CF17E0043715C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD74ADFA189CF17E0043715C /* MobileCoreServices.framework */; };
+		CD74ADFE189CF4BB0043715C /* FSQFoursquareAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADFD189CF4BB0043715C /* FSQFoursquareAPIClient.m */; };
+		CD74ADFF189CF4BB0043715C /* FSQFoursquareAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74ADFD189CF4BB0043715C /* FSQFoursquareAPIClient.m */; };
+		CD74AE02189CF4D80043715C /* FSQVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74AE01189CF4D80043715C /* FSQVenue.m */; };
+		CD74AE03189CF4D80043715C /* FSQVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74AE01189CF4D80043715C /* FSQVenue.m */; };
+		CD74AE06189D50B20043715C /* PKVenueAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74AE05189D50B20043715C /* PKVenueAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD74ADD3189BBFF60043715C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD74ADAB189BBFF60043715C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD74ADB2189BBFF60043715C;
+			remoteInfo = PKBeerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21D4CCEAE1594E6D9A921F14 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD74ADB3189BBFF60043715C /* PKBeerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKBeerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD74ADB6189BBFF60043715C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD74ADB8189BBFF60043715C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD74ADBA189BBFF60043715C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD74ADBE189BBFF60043715C /* PKBeerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PKBeerView-Info.plist"; sourceTree = "<group>"; };
+		CD74ADC0189BBFF60043715C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD74ADC2189BBFF60043715C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD74ADC4189BBFF60043715C /* PKBeerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PKBeerView-Prefix.pch"; sourceTree = "<group>"; };
+		CD74ADC5189BBFF60043715C /* PKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAppDelegate.h; sourceTree = "<group>"; };
+		CD74ADC6189BBFF60043715C /* PKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
+		CD74ADC8189BBFF60043715C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD74ADCE189BBFF60043715C /* PKBeerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKBeerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD74ADCF189BBFF60043715C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD74ADD7189BBFF60043715C /* PKBeerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PKBeerViewTests-Info.plist"; sourceTree = "<group>"; };
+		CD74ADD9189BBFF60043715C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD74ADDB189BBFF60043715C /* PKBeerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKBeerViewTests.m; sourceTree = "<group>"; };
+		CD74ADE9189BC6D30043715C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD74ADEB189CEAE80043715C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CD74ADF0189CED840043715C /* Storyboard_Phone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_Phone.storyboard; sourceTree = "<group>"; };
+		CD74ADF2189CED9C0043715C /* Storyboard_Pad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_Pad.storyboard; sourceTree = "<group>"; };
+		CD74ADF4189CF0240043715C /* PKMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMapViewController.h; sourceTree = "<group>"; };
+		CD74ADF5189CF0240043715C /* PKMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMapViewController.m; sourceTree = "<group>"; };
+		CD74ADF8189CF1680043715C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CD74ADFA189CF17E0043715C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CD74ADFC189CF4BB0043715C /* FSQFoursquareAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQFoursquareAPIClient.h; sourceTree = "<group>"; };
+		CD74ADFD189CF4BB0043715C /* FSQFoursquareAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQFoursquareAPIClient.m; sourceTree = "<group>"; };
+		CD74AE00189CF4D80043715C /* FSQVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQVenue.h; sourceTree = "<group>"; };
+		CD74AE01189CF4D80043715C /* FSQVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQVenue.m; sourceTree = "<group>"; };
+		CD74AE04189D50B20043715C /* PKVenueAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKVenueAnnotation.h; sourceTree = "<group>"; };
+		CD74AE05189D50B20043715C /* PKVenueAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKVenueAnnotation.m; sourceTree = "<group>"; };
+		FF4EABA980934A6085106140 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD74ADB0189BBFF60043715C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74ADFB189CF17E0043715C /* MobileCoreServices.framework in Frameworks */,
+				CD74ADF9189CF1680043715C /* SystemConfiguration.framework in Frameworks */,
+				CD74ADEC189CEAE80043715C /* CoreLocation.framework in Frameworks */,
+				CD74ADEA189BC6D30043715C /* MapKit.framework in Frameworks */,
+				CD74ADB9189BBFF60043715C /* CoreGraphics.framework in Frameworks */,
+				CD74ADBB189BBFF60043715C /* UIKit.framework in Frameworks */,
+				CD74ADB7189BBFF60043715C /* Foundation.framework in Frameworks */,
+				905ACE6F7BA04BE0BE456C90 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74ADCB189BBFF60043715C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74ADD0189BBFF60043715C /* XCTest.framework in Frameworks */,
+				CD74ADD2189BBFF60043715C /* UIKit.framework in Frameworks */,
+				CD74ADD1189BBFF60043715C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD74ADAA189BBFF60043715C = {
+			isa = PBXGroup;
+			children = (
+				CD74ADED189CEC890043715C /* Lib */,
+				CD74ADBC189BBFF60043715C /* PKBeerView */,
+				CD74ADD5189BBFF60043715C /* PKBeerViewTests */,
+				CD74ADEE189CECC30043715C /* Resources */,
+				CD74ADB5189BBFF60043715C /* Frameworks */,
+				CD74ADB4189BBFF60043715C /* Products */,
+				FF4EABA980934A6085106140 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CD74ADB4189BBFF60043715C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADB3189BBFF60043715C /* PKBeerView.app */,
+				CD74ADCE189BBFF60043715C /* PKBeerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD74ADB5189BBFF60043715C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADFA189CF17E0043715C /* MobileCoreServices.framework */,
+				CD74ADF8189CF1680043715C /* SystemConfiguration.framework */,
+				CD74ADEB189CEAE80043715C /* CoreLocation.framework */,
+				CD74ADE9189BC6D30043715C /* MapKit.framework */,
+				CD74ADB6189BBFF60043715C /* Foundation.framework */,
+				CD74ADB8189BBFF60043715C /* CoreGraphics.framework */,
+				CD74ADBA189BBFF60043715C /* UIKit.framework */,
+				CD74ADCF189BBFF60043715C /* XCTest.framework */,
+				21D4CCEAE1594E6D9A921F14 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD74ADBC189BBFF60043715C /* PKBeerView */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADE6189BC2130043715C /* Models */,
+				CD74ADE7189BC23C0043715C /* Views */,
+				CD74ADE8189BC25B0043715C /* Controllers */,
+				CD74ADC5189BBFF60043715C /* PKAppDelegate.h */,
+				CD74ADC6189BBFF60043715C /* PKAppDelegate.m */,
+				CD74ADF0189CED840043715C /* Storyboard_Phone.storyboard */,
+				CD74ADF2189CED9C0043715C /* Storyboard_Pad.storyboard */,
+				CD74ADC8189BBFF60043715C /* Images.xcassets */,
+				CD74ADBD189BBFF60043715C /* Supporting Files */,
+			);
+			path = PKBeerView;
+			sourceTree = "<group>";
+		};
+		CD74ADBD189BBFF60043715C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADBE189BBFF60043715C /* PKBeerView-Info.plist */,
+				CD74ADBF189BBFF60043715C /* InfoPlist.strings */,
+				CD74ADC2189BBFF60043715C /* main.m */,
+				CD74ADC4189BBFF60043715C /* PKBeerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD74ADD5189BBFF60043715C /* PKBeerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADDB189BBFF60043715C /* PKBeerViewTests.m */,
+				CD74ADD6189BBFF60043715C /* Supporting Files */,
+			);
+			path = PKBeerViewTests;
+			sourceTree = "<group>";
+		};
+		CD74ADD6189BBFF60043715C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADD7189BBFF60043715C /* PKBeerViewTests-Info.plist */,
+				CD74ADD8189BBFF60043715C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD74ADE6189BC2130043715C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD74ADE7189BC23C0043715C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD74AE04189D50B20043715C /* PKVenueAnnotation.h */,
+				CD74AE05189D50B20043715C /* PKVenueAnnotation.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD74ADE8189BC25B0043715C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADF4189CF0240043715C /* PKMapViewController.h */,
+				CD74ADF5189CF0240043715C /* PKMapViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CD74ADED189CEC890043715C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADFC189CF4BB0043715C /* FSQFoursquareAPIClient.h */,
+				CD74ADFD189CF4BB0043715C /* FSQFoursquareAPIClient.m */,
+				CD74AE00189CF4D80043715C /* FSQVenue.h */,
+				CD74AE01189CF4D80043715C /* FSQVenue.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CD74ADEE189CECC30043715C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD74ADEF189CED000043715C /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD74ADEF189CED000043715C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD74ADB2189BBFF60043715C /* PKBeerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD74ADDF189BBFF60043715C /* Build configuration list for PBXNativeTarget "PKBeerView" */;
+			buildPhases = (
+				DD1DED089CC74959B8899B27 /* Check Pods Manifest.lock */,
+				CD74ADAF189BBFF60043715C /* Sources */,
+				CD74ADB0189BBFF60043715C /* Frameworks */,
+				CD74ADB1189BBFF60043715C /* Resources */,
+				2781CEA137D04CF685B7F790 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PKBeerView;
+			productName = PKBeerView;
+			productReference = CD74ADB3189BBFF60043715C /* PKBeerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD74ADCD189BBFF60043715C /* PKBeerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD74ADE2189BBFF60043715C /* Build configuration list for PBXNativeTarget "PKBeerViewTests" */;
+			buildPhases = (
+				CD74ADCA189BBFF60043715C /* Sources */,
+				CD74ADCB189BBFF60043715C /* Frameworks */,
+				CD74ADCC189BBFF60043715C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD74ADD4189BBFF60043715C /* PBXTargetDependency */,
+			);
+			name = PKBeerViewTests;
+			productName = PKBeerViewTests;
+			productReference = CD74ADCE189BBFF60043715C /* PKBeerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD74ADAB189BBFF60043715C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Patrick King Consulting LLC";
+				TargetAttributes = {
+					CD74ADCD189BBFF60043715C = {
+						TestTargetID = CD74ADB2189BBFF60043715C;
+					};
+				};
+			};
+			buildConfigurationList = CD74ADAE189BBFF60043715C /* Build configuration list for PBXProject "PKBeerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD74ADAA189BBFF60043715C;
+			productRefGroup = CD74ADB4189BBFF60043715C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD74ADB2189BBFF60043715C /* PKBeerView */,
+				CD74ADCD189BBFF60043715C /* PKBeerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD74ADB1189BBFF60043715C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74ADC1189BBFF60043715C /* InfoPlist.strings in Resources */,
+				CD74ADF3189CED9C0043715C /* Storyboard_Pad.storyboard in Resources */,
+				CD74ADF1189CED840043715C /* Storyboard_Phone.storyboard in Resources */,
+				CD74ADC9189BBFF60043715C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74ADCC189BBFF60043715C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74ADDA189BBFF60043715C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2781CEA137D04CF685B7F790 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1DED089CC74959B8899B27 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD74ADAF189BBFF60043715C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74ADC3189BBFF60043715C /* main.m in Sources */,
+				CD74ADC7189BBFF60043715C /* PKAppDelegate.m in Sources */,
+				CD74AE02189CF4D80043715C /* FSQVenue.m in Sources */,
+				CD74ADF6189CF0240043715C /* PKMapViewController.m in Sources */,
+				CD74ADFE189CF4BB0043715C /* FSQFoursquareAPIClient.m in Sources */,
+				CD74AE06189D50B20043715C /* PKVenueAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74ADCA189BBFF60043715C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74ADFF189CF4BB0043715C /* FSQFoursquareAPIClient.m in Sources */,
+				CD74ADF7189CF0240043715C /* PKMapViewController.m in Sources */,
+				CD74AE03189CF4D80043715C /* FSQVenue.m in Sources */,
+				CD74ADDC189BBFF60043715C /* PKBeerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD74ADD4189BBFF60043715C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD74ADB2189BBFF60043715C /* PKBeerView */;
+			targetProxy = CD74ADD3189BBFF60043715C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD74ADBF189BBFF60043715C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD74ADC0189BBFF60043715C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD74ADD8189BBFF60043715C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD74ADD9189BBFF60043715C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD74ADDD189BBFF60043715C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD74ADDE189BBFF60043715C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD74ADE0189BBFF60043715C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4EABA980934A6085106140 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKBeerView/PKBeerView-Prefix.pch";
+				INFOPLIST_FILE = "PKBeerView/PKBeerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD74ADE1189BBFF60043715C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4EABA980934A6085106140 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKBeerView/PKBeerView-Prefix.pch";
+				INFOPLIST_FILE = "PKBeerView/PKBeerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD74ADE3189BBFF60043715C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PKBeerView.app/PKBeerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKBeerView/PKBeerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PKBeerViewTests/PKBeerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD74ADE4189BBFF60043715C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PKBeerView.app/PKBeerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKBeerView/PKBeerView-Prefix.pch";
+				INFOPLIST_FILE = "PKBeerViewTests/PKBeerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD74ADAE189BBFF60043715C /* Build configuration list for PBXProject "PKBeerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD74ADDD189BBFF60043715C /* Debug */,
+				CD74ADDE189BBFF60043715C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD74ADDF189BBFF60043715C /* Build configuration list for PBXNativeTarget "PKBeerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD74ADE0189BBFF60043715C /* Debug */,
+				CD74ADE1189BBFF60043715C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD74ADE2189BBFF60043715C /* Build configuration list for PBXNativeTarget "PKBeerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD74ADE3189BBFF60043715C /* Debug */,
+				CD74ADE4189BBFF60043715C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD74ADAB189BBFF60043715C /* Project object */;
+}
